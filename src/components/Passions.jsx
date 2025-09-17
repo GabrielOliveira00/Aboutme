@@ -108,7 +108,6 @@ const Passions = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column - Passion Cards */}
           <div className="space-y-4">
             {passions.map((passion, index) => {
               const colors = getColorClasses(passion.color)
@@ -147,7 +146,6 @@ const Passions = () => {
             })}
           </div>
 
-          {/* Right Column - Active Passion Details */}
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <div className="relative mb-8">

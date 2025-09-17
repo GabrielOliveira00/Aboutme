@@ -110,7 +110,6 @@ const Projects = () => {
             Uma seleção dos meus trabalhos mais recentes e impactantes
           </p>
 
-          {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             {filters.map((filter) => (
               <Button
@@ -130,7 +129,6 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <Card 
@@ -181,7 +179,6 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
         <div className="text-center mt-16">
           <p className="text-gray-400 mb-6">
             Gostou do que viu? Vamos trabalhar juntos no seu próximo projeto!
